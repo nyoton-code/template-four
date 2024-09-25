@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>setting</title>
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/framwork.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100..900display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- start page -->
+    <div class="page">
+      <!-- start sidebar -->
+      <div class="sidebar">
+        <h2 class="p-relative t-center">nyoton</h2>
+        <ul class="pd-0">
+          <li>
+            <a href="index.html">
+              <i class="fa-solid fa-table-columns"></i>
+              <h3>dashboard</h3>
+            </a>
+          </li>
+          <li>
+            <a class="active" href="setting.html">
+              <i class="fa-solid fa-gear"></i>
+              <h3>setting</h3>
+            </a>
+          </li>
+          <li>
+            <a href="profile.html">
+              <i class="fa-solid fa-user"></i>
+              <h3>profile</h3>
+            </a>
+          </li>
+          <li>
+            <a href="projects.html">
+              <i class="fa-solid fa-diagram-project"></i>
+              <h3>projects</h3>
+            </a>
+          </li>
+          <li>
+            <a href="courses.html">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <h3>courses</h3>
+            </a>
+          </li>
+          <li>
+            <a href="friends.html">
+              <i class="fa-solid fa-people-group"></i>
+              <h3>friends</h3>
+            </a>
+          </li>
+          <li>
+            <a href="files.html">
+              <i class="fa-solid fa-file"></i>
+              <h3>files</h3>
+            </a>
+          </li>
+          <li>
+            <a href="plan.html">
+              <i class="fa-solid fa-bullseye"></i>
+              <h3>plans</h3>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- end sidebar -->
+      <div class="content">
+        <!-- start head -->
+        <div class="head flx-between bgc-white">
+          <div class="search p-relative">
+            <input
+              type="search"
+              placeholder="Type A Keyword"
+              class="p-relative br-10"
+            />
+            <i class="fa-solid fa-search"></i>
+          </div>
+          <div class="items f-h-center">
+            <i class="fa-regular fa-bell"></i>
+            <img src="images/avatar.png" alt="" />
+          </div>
+        </div>
+        <!-- start seeting -->
+        <div class="setting pd-20">
+          <h1 class="main-title p-relative">setting</h1>
+          <!--  site controle -->
+          <div class="Site-Control">
+            <h2 class="title-repeated">Site Control</h2>
+            <h5>Control The Website If There Is Maintenance</h5>
+            <h3>Website Control</h3>
+            <label class="fs-13 c-down-grey"
+              >Open/Close Website And Type The Reason</label
+            >
+            <div class="checkbox">
+              <input type="checkbox" checked />
+              <div class="check-style"></div>
+            </div>
+            <div class="setting-textarea">
+              <textarea
+                placeholder="close message content"
+                class="br-5 pd-10"
+              ></textarea>
+            </div>
+          </div>
+          <!-- ens site controlle -->
+          <!-- start general info  -->
+          <div class="General-Info">
+            <h2 class="title-repeated">General Info</h2>
+            <h5>General Information About Your Account</h5>
+            <div class="general-form">
+              <div class="m-b-10">
+                <label class="fs-14 m-b-10 c-down-grey">First Name </label>
+                <input type="text" placeholder="first name" />
+              </div>
+              <div class="m-b-10">
+                <label class="fs-14 m-b-10 c-down-grey">Last Name </label>
+                <input type="text" placeholder="last name" />
+              </div>
+              <div class="m-b-10">
+                <label class="fs-14 m-b-10 c-">Email </label>
+                <input
+                  class="d-inline-b"
+                  type="email"
+                  value="d@mm.sa"
+                  disabled
+                />
+                <a href="setting.html" class="c-blue d-inline-b">change</a>
+              </div>
+            </div>
+          </div>
+          <!--  end general info -->
+          <!-- start  Security-Info -->
+          <div class="Security-Info">
+            <h2 class="title-repeated">Security Info</h2>
+            <h5>Security Information About Your Account</h5>
+            <div>
+              <div>
+                <h3 class="fs-17">Password</h3>
+                <p class="fs-14">Last Change On 25/10/2021</p>
+              </div>
+              <a href="setting.html" class="pd-5 cl-white bgc-blue br-5 fs-15"
+                >change</a
+              >
+            </div>
+
+            <div>
+              <div>
+                <h3 class="fs-17">Two-Factor Authentication</h3>
+                <p class="fs-14">Enable/Disable The Feature</p>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" checked />
+                <div class="check-style"></div>
+              </div>
+            </div>
+            <div>
+              <div>
+                <h3 class="fs-17">Devices</h3>
+                <p class="fs-14">Check The Login Devices List</p>
+              </div>
+              <a href="setting.html" class="pd-5 fs-15 bgc-grey br-5"
+                >devices</a
+              >
+            </div>
+          </div>
+          <!-- end security-info -->
+          <!-- start socila info -->
+          <div class="Social-Info">
+            <h2 class="title-repeated">Social Info</h2>
+            <h5>Social Media Information</h5>
+            <div class="p-relative br-5 m-t-10">
+              <input type="text" placeholder="X username" />
+              <i class="fa-brands fa-x-twitter flx-center fs-15"></i>
+            </div>
+            <div class="p-relative br-5 m-t-10">
+              <input type="text" placeholder="facebook username" />
+              <i class="fa-brands fa-facebook-f flx-center fs-15"></i>
+            </div>
+            <div class="p-relative br-5 m-t-10">
+              <input type="text" placeholder="Youtube username" />
+              <i class="fa-brands fa-youtube flx-center fs-15"></i>
+            </div>
+            <div class="p-relative br-5 m-t-10">
+              <input type="text" placeholder="Linkedin username" />
+              <i class="fa-brands fa-linkedin-in flx-center fs-15"></i>
+            </div>
+          </div>
+          <!-- end socila info -->
+          <!-- start widgets-control -->
+          <div class="Widgets-Control">
+            <h2 class="title-repeated">Widgets Control</h2>
+            <h5>Show/Hide Widgets</h5>
+            <div class="Widgets-checks">
+              <div>
+                <input type="checkbox" id="draft" checked />
+                <label for="draft">Quick Draft </label>
+              </div>
+              <div>
+                <input type="checkbox" id="targets" checked />
+                <label for="targets">Yearly Targets </label>
+              </div>
+              <div>
+                <input type="checkbox" id="tickets" />
+                <label for="tickets">Tickets Statistics </label>
+              </div>
+              <div>
+                <input type="checkbox" id="news" checked />
+                <label for="news">Latest News </label>
+              </div>
+              <div>
+                <input type="checkbox" id="latest tasks" checked />
+                <label for="latest tasks">Latest Tasks </label>
+              </div>
+              <div>
+                <input type="checkbox" id="top search" checked />
+                <label for="top search">Top Search Items </label>
+              </div>
+            </div>
+          </div>
+          <!-- end widgets-control -->
+          <!-- start backup-manager-->
+          <div class="Backup-Manager">
+            <h2 class="title-repeated">Social Info</h2>
+            <h5>Social Media Information</h5>
+            <div>
+              <input type="radio" id="Daily" name="backup" checked />
+              <label for="Daily">Daily </label>
+            </div>
+            <div>
+              <input type="radio" id="Weekly" name="backup" />
+              <label for="Weekly">Weekly</label>
+            </div>
+            <div>
+              <input type="radio" id="Monthly" name="backup" />
+              <label for="Monthly">Monthly </label>
+            </div>
+            <div class="wc">
+              <div>
+                <i class="fa-brands fa-watchman-monitoring"></i>
+                <span>Megaman </span>
+              </div>
+              <div>
+                <i class="fa-brands fa-watchman-monitoring"></i>
+                <span>Zero</span>
+              </div>
+              <div>
+                <i class="fa-brands fa-watchman-monitoring"></i>
+                <span>Sigma</span>
+              </div>
+            </div>
+          </div>
+          <!-- end backup-manager -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

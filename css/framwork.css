@@ -1,0 +1,335 @@
+:root {
+  --blue-color: #0075ff;
+  --blue-alt-color: #0d69d5;
+  --orange-color: #f59e0b;
+  --green-color: #22c55e;
+  --red-color: #f44336;
+  --grey-color: #888;
+}
+
+.clr-blue {
+  color: var(--blue-color);
+}
+.c-blue {
+  color: var(--blue-color);
+}
+.c-alt-blue {
+  color: var(--blue-alt-color);
+}
+.c-orange {
+  color: var(--orange-color);
+}
+.c-green {
+  color: var(--green-color);
+}
+.c-red {
+  color: var(--red-color);
+}
+.c-grey {
+  color: var(--grey-color);
+}
+.fw-normal {
+  font-weight: normal;
+}
+.clr-green {
+  color: var(--green-color);
+}
+
+.clr-red {
+  color: var(--red-color);
+}
+.opacity-2 {
+  opacity: 0.2;
+}
+
+.clr-grey {
+  color: var(--grey-color);
+}
+
+.bgc-blue {
+  background-color: var(--blue-color);
+}
+
+.bgc-alt-blue {
+  background-color: var(--blue-alt-color);
+}
+
+.bgc-orange {
+  background-color: var(--orange-color);
+}
+
+.bgc-green {
+  background-color: var(--green-color);
+}
+
+.bgc-red {
+  background-color: var(--red-color);
+}
+
+.bgc-grey {
+  background-color: var(--grey-color);
+}
+
+.bgc-white {
+  background-color: white;
+}
+
+.wth-10 {
+
+  width: 10px;
+}
+
+.wth-20 {
+  width: 20px;
+}
+
+.wth-30 {
+  width: 30px;
+}
+
+.wth-50 {
+  width: 50px;
+}
+
+.wth-50p {
+  width: 50%;
+}
+
+.wth-100 {
+  width: 100px;
+}
+
+.wth-150 {
+  width: 150px;
+}
+
+.wth-200 {
+  width: 200px;
+}
+
+.ht-10 {
+  height: 10px;
+}
+
+.ht-100 {
+  height: 100px;
+}
+
+.ht-200 {
+  height: 200px;
+}
+
+.brds-50 {
+  border-radius: 50%;
+}
+
+.brds-5 {
+  border-radius: 5px;
+}
+.br-5 {
+  border-radius: 5px;
+}
+.br-10 {
+  border-radius: 10px;
+}
+.br-50 {
+  border-radius: 50px;
+}
+
+.t-center {
+  text-align: center;
+}
+.d-inline-b {
+  display: inline-block;
+}
+.d-flex  {
+  display: flex;
+}
+.f-wrap {
+  flex-wrap: wrap;
+}
+.f-evently  {
+  justify-content: space-evenly;
+}
+.flx-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.f-h-center {
+  display: flex;
+  align-items: center;
+}
+
+.flx-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bgc-clr-blue {
+  background-color: rgba(0, 145, 255, 0.397);
+  color: rgb(0, 81, 255);
+}
+
+.bgc-clr-green {
+  background-color: rgba(8, 187, 59, 0.431);
+  color: rgb(8, 187, 59);
+}
+
+.bgc-clr-red {
+  background-color: rgba(223, 49, 14, 0.457);
+  color: rgb(223, 49, 14);
+}
+
+.bgc-clr-orang {
+  background-color: rgba(223, 122, 14, 0.468);
+  color: rgb(222, 122, 14);
+}
+
+.d-block {
+  display: block;
+}
+
+.pd-10 {
+  padding: 10px;
+}
+.pd-15 {
+  padding: 15px;
+}
+.pd-l-10 {
+  padding-left: 10px;
+}
+.pd-l-20 {
+  padding-left: 20px;
+}
+.pd-l-30 {
+  padding-left: 30px;
+}
+.pd-r-10 {
+  padding-right: 10px;
+}
+.pd-r-20 {
+  padding-right: 20px
+}
+.pd-l-5 {
+  padding-left: 4px;
+}
+.pd-5 {
+  padding: 5px;
+}
+
+.bgc-blue {
+  background-color: rgb(0, 81, 255);
+}
+
+.bgc-grey {
+  background-color: #ededed;
+}
+
+.cl-grey {
+  color: #c3c3c3;
+}
+.c-down-grey {
+  color: #888888bb;
+
+}
+
+.cl-white {
+  color: white;
+}
+.c-white {
+  color: white;
+}
+
+.br-5 {
+  border-radius: 5px;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+.fs-17 {
+  font-size: 17px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-13 {
+  font-size: 13px;
+}
+/* margin */
+.m-0 {
+  margin: 0;
+}
+.m-10 {
+  margin: 10px;
+}
+.m-b-10 {
+  margin-bottom: 10px;
+}
+.m-t-10 {
+  margin-top: 10px;
+}
+.m-b-10 {
+  margin-bottom: 10px;
+}
+.m-t-0 {
+  margin-top: 0;
+}
+.m-b-0 {
+  margin-bottom: 0;
+}
+.m-t-5 {
+   margin-top: 5px;
+}
+.m-l-5 {
+   margin-left: 5px;
+}
+.m-b-5 {
+  margin-bottom: 5px;
+}
+.m-t-20 {
+ margin-top: 20px;
+}
+.m-b-20 {
+  margin-bottom: 20px;
+}
+.mrgn-left-10 {
+  margin-left: 10px;
+}
+.m-l-20 {
+  margin-left: 20px;
+}
+
+.mrgn-right-10 {
+  margin-right: 10px;
+}
+
+/* padding */
+.pd-0 {
+  padding: 0;
+}
+
+.pd-10 {
+  padding: 10px;
+}
+.pd-20 {
+  padding: 20px;
+}
+
+.pd-30 {
+  padding: 30px;
+}
+
+.pd-40 {
+  padding: 40px;
+}
+
+/* position */
+.p-relative {
+  position: relative;
+}
+.p-absolute {
+  position: absolute
+}
