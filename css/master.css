@@ -285,7 +285,7 @@ input {
         width: 50px;
         height: 50px;
         border-radius: 50%;
-        background-image: url("/images/avatar.png");
+        background-image: url("../images/avatar.png");
         background-size: cover;
         border: 5px solid #f9f9f9;
     }
@@ -296,7 +296,7 @@ input {
         height: 90px;
         right: 40px;
         top: 10px;
-        background-image: url("/images/welcome.png");
+        background-image: url("../images/welcome.png");
         background-size: cover;
     }
 
@@ -1317,11 +1317,11 @@ input:checked+.check-style::before {
             align-content: center;
         }
 
-        .latest-activities>div  ,
+        .latest-activities>div,
         .latest-activities>div>div {
             flex-direction: column;
         }
-        
+
         .img {
             text-align: center;
             margin-left: auto;
@@ -1850,6 +1850,7 @@ input:checked+.check-style::before {
                 }
             }
         }
+
         img {
             width: 60px;
             height: 60px;
